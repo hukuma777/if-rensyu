@@ -12,8 +12,8 @@ namespace if_rensyu
 {
     public partial class Form1 : Form
     {
-        int vx = -20;
-        int vy = -20;
+        int vx = -10;
+        int vy = -10;
 
         public Form1()
         {
@@ -29,6 +29,7 @@ namespace if_rensyu
         {
             button1.Left += vx;
             button1.Top += vy;
+            
             if (button1.Left < 0 )
             {
                 vx = 20;
